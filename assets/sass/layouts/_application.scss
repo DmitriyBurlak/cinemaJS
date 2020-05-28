@@ -1,0 +1,14 @@
+.application {
+    // position: relative;
+    // top: 50%;
+    // transform: translateY(-50%);
+    
+    width: 1100px;
+    height: 600px;
+    background-color: $color-primary;
+    margin: 50px auto;
+    padding: 30px 0px;
+    border-radius: 10px;
+    display: flex;
+}
+

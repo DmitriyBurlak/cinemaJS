@@ -1,0 +1,280 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+section, main, footer, header, article {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+object svg .chair_handle, object svg .chair_footing, .arrow:after, .arrow:before, .button_red, .button_black, .button {
+  transition: all 0.3s ease-out;
+}
+
+body {
+  font-family: "Gotham", Verdana, sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #111111;
+  color: #444444;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.button {
+  padding: 14px 25px 14px;
+  font-weight: 700;
+  color: #444444;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button_empty {
+  background: #ffffff;
+  border: 1px solid #D7D7D7;
+}
+.button_empty:hover {
+  background: #ff1119;
+  border: 1px solid #ff1119;
+  color: #ffffff;
+}
+.button_black {
+  padding: 9px 25px 9px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+.button_black:hover {
+  background: black;
+}
+.button_red {
+  padding: 20px 35px 20px;
+  background: #ff1119;
+  color: #ffffff;
+  border: 1px solid #ff1119;
+  border-radius: 10px;
+}
+.button_red:hover {
+  background: #d60007;
+}
+.button_modal {
+  padding: 10px 25px 9px;
+}
+
+.arrow {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  position: absolute;
+  top: 220px;
+  width: 30px;
+  height: 30px;
+}
+.arrow:after, .arrow:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  background: #111111;
+  transform: rotate(45deg);
+}
+.arrow:before {
+  transform: rotate(-45deg);
+  bottom: 7px;
+}
+.arrow:after {
+  top: 7px;
+}
+.arrow_right {
+  right: 0;
+}
+.arrow_left {
+  cursor: pointer;
+  left: -25px;
+  transform: rotate(-180deg);
+}
+.arrow:hover:after, .arrow:hover:before {
+  background: #ff1119;
+}
+
+.ico {
+  display: inline-block;
+  background-size: cover;
+}
+
+object svg {
+  cursor: pointer;
+}
+object svg .chair_footing {
+  fill: #ebeec0;
+}
+object svg .chair_handle {
+  fill: #e4f5e6;
+}
+object svg:hover .chair_footing {
+  fill: #1cdf36;
+}
+object svg:hover .chair_handle {
+  fill: #44e95a;
+}
+object .active svg .chair_footing {
+  fill: #1cdf36;
+}
+object .active svg .chair_handle {
+  fill: #44e95a;
+}
+
+.zone {
+  display: flex;
+}
+
+ul {
+  margin: 5px 0;
+}
+
+.chair {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px 50px 20px 20px;
+  cursor: pointer;
+  background-color: white;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.push {
+  background-color: #1cdf36;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.application {
+  width: 1100px;
+  height: 600px;
+  background-color: #1a1919;
+  margin: 50px auto;
+  padding: 30px 0px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.layout-4-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-4-column > * {
+  flex-basis: 23%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 48%;
+}
+
+.hall {
+  width: 70%;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.row_4 {
+  margin-top: 25px;
+}
+
+.display {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zone__left {
+  transform: skew(20deg, -20deg) translate(40px, 42px);
+  display: flex;
+}
+.zone__left_row2 {
+  transform: skew(20deg, -20deg) translate(50px, 45px);
+}
+.zone__left_row3 {
+  transform: skew(20deg, -20deg) translate(60px, 48px);
+}
+
+.zone__right {
+  transform: skew(-20deg, 20deg) translate(-45px, 28px);
+  display: flex;
+}
+.zone__right_row2 {
+  transform: skew(-20deg, 20deg) translate(-55px, 31px);
+}
+.zone__right_row3 {
+  transform: skew(-20deg, 20deg) translate(-65px, 34px);
+}
+
+.booking {
+  width: 30%;
+  background-color: #444444;
+}
+
+/*# sourceMappingURL=style.css.map */

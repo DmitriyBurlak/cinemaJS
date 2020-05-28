@@ -1,0 +1,18 @@
+<?xml-stylesheet type="text/css" href="../css/style.css"?>
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="15.888886" height="15.888886" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect class="chair_footing" rx="3" id="svg_10" height="16.048656" width="36.080583" y="4.629527" x="6.659556" stroke-width="1.5" fill="#f3f4c6" stroke="#000" />
+  <rect class="chair_footing" stroke-opacity="0.93" rx="2" id="svg_11" height="26.440761" width="32.610273" y="19.844854" x="8.154508" stroke-width="1.5" fill="#f3f4c6" stroke="#000" />
+  <rect class="chair_handle" rx="1" id="svg_4" height="23.546373" width="8.150667" y="17.752008" x="39.829194" stroke-width="1.5" fill="#fafcef" stroke="#000" />
+  <rect class="chair_handle" rx="1" id="svg_13" height="23.546373" width="8.150667" y="17.063271" x="2.291132" stroke-width="1.5" fill="#fafcef" stroke="#000" />
+ </g>
+</svg>

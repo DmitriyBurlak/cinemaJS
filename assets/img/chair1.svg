@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/css" href="../css/style.css"?>
+<svg width="30.00000000000001" height="30.00000000000001" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="32" height="32" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect class="chair_footing" stroke="#000" rx="4" id="svg_10" height="9.070993" width="22.463616" y="4.907043" x="3.642608" stroke-width="1.5" fill="#c3d39e"/>
+  <rect class="chair_footing" stroke="#000" rx="2" id="svg_11" height="15.399977" width="18.993305" y="10.957791" x="5.377763" stroke-width="1.5" fill="#e2f4bc"/>
+  <rect class="chair_handle" stroke="#000" rx="1" id="svg_2" height="14.941207" width="5.171959" y="9.133802" x="1.697339" stroke-width="1.5" fill="#ecf2de"/>
+  <rect class="chair_handle" stroke="#000" rx="1" id="svg_13" height="14.941207" width="5.171959" y="9.133802" x="22.973848" stroke-width="1.5" fill="#ecf2de"/>
+ </g>
+</svg>

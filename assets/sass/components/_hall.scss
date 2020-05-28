@@ -1,0 +1,38 @@
+.hall {
+    width: 70%;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    &_4 {
+        margin-top: 25px;
+    }
+}
+.display {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.zone__left {
+    transform: skew(20deg, -20deg) translate(40px, 42px);
+    display: flex;
+    
+    &_row2 {
+        transform: skew(20deg, -20deg) translate(50px, 45px);
+    }
+    &_row3 {
+        transform: skew(20deg, -20deg) translate(60px, 48px);
+    }
+}
+.zone__right {
+    transform: skew(-20deg, 20deg) translate(-45px, 28px);
+    display: flex;
+
+    &_row2 {
+        transform: skew(-20deg, 20deg) translate(-55px, 31px);
+    }
+    &_row3 {
+        transform: skew(-20deg, 20deg) translate(-65px, 34px);
+    }
+}

@@ -1,0 +1,25 @@
+html {
+  font-size: 10px;
+}
+body {
+  @extend %font;
+  @include font (1.5rem, 400);
+  background-color: $color-main;
+  color: $color-text;
+  overflow-x: hidden;
+}
+
+h1 {
+  @include font (6rem, 400);
+}
+h2 {
+  @include font (5rem, 700);
+  text-align: center;
+}
+h3 {
+  @include font (1.7rem, 700);
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+
