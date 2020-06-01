@@ -1,43 +1,5 @@
-.ico {
-  display: inline-block;
-  background-size: cover;
-}
-object {
-  svg {
-    cursor: pointer;
-    .chair_footing { fill: $color-footing; @extend %transition;  }
-    .chair_handle { fill: $color-handle; @extend %transition; }
-  
-    &:hover {
-      .chair_footing { fill: #1cdf36; }
-      .chair_handle { fill: #44e95a; }
-    }
-  }
-  .active {
-    svg {
-      .chair_footing { fill: #1cdf36; }
-      .chair_handle { fill: #44e95a; }
-    }
-  }
-  
-}
-.zone {
-  display: flex;
-}
-ul {
-  margin: 5px 0;
-}
 .chair {
-  height: 20px;
-  width: 20px;
-  border-radius: 50px 50px 20px 20px;
+  position: absolute;
+  border-radius: 35px 35px 13px 13px;
   cursor: pointer;
-  background-color: white;
-  list-style-type: none;
-  margin: 0 10px;
 }
-
-.push {
-  background-color: #1cdf36;
-}
-

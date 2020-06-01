@@ -1,26 +1,28 @@
-let rows = document.querySelectorAll('.row');
-let zones;
-let places;
+let hall = document.querySelector('.application');
+class Chair {
+    id = 'null';
+    color = '#ffffff';
+    width = '50px';
+    height = '50px';
+    top = '170';
+    left = '135';
 
-rows = Array.prototype.slice.call(rows).reverse();
-
-rows.forEach(row => {
-   
-
-    zones = row.children;
-    for (let zone of zones) {
-        console.log('zone: ', zone);
-        
-        places = zone.children;
-        for (let place of places) {
-           
-            place.addEventListener("click", () => {
-
-                place.classList.toggle('push');
-                
-            })
-        }
+    createChair() {
+        let chair = document.createElement('div');
+        chair.classList.add('chair');
+        chair.style.backgroundColor = this.color;
+        chair.style.width = this.width;
+        chair.style.height = this.height;
+        chair.style.left = this.top + 'px';
+        chair.style.top = this.left + 'px';
+        hall.append(chair);
     }
+}
+
+
+
+let chair2 = new Chair();
+chair2.createChair();
 
 
 
@@ -29,6 +31,8 @@ rows.forEach(row => {
 
 
 
+hall.addEventListener('click', function(event) {
+    let fieldCoords = this.getBoundingClientRect();
 
 });
 

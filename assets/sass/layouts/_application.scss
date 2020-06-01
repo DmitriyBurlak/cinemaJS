@@ -1,14 +1,12 @@
 .application {
-    // position: relative;
-    // top: 50%;
-    // transform: translateY(-50%);
-    
-    width: 1100px;
-    height: 600px;
+    background-image: url(../img/hall.jpg);
+    background-repeat: no-repeat; 
     background-color: $color-primary;
+    width: 1223px;
+    height: 919px;
     margin: 50px auto;
-    padding: 30px 0px;
     border-radius: 10px;
-    display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
